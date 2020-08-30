@@ -1,8 +1,27 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 1200px;
 }
 
-a {
-  color: #00B7FF;
+.regist-main{
+  width: 300px;
+  min-width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.regist-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.regist-form input{
+  margin-bottom: 10px;
 }
